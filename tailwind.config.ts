@@ -1,7 +1,9 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{ts,tsx}",
     "./src/app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
@@ -23,6 +25,10 @@ const config: Config = {
         ring: "hsl(var(--ring))",
         background: "#010101",
         foreground: "#ffffff",
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
         primary: {
           DEFAULT: "#118ab2",
           foreground: "#ffffff",

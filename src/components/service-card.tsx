@@ -45,7 +45,7 @@ export function ServiceCard({
 
   return (
     <Card
-      className="cursor-pointer transition-all duration-200 hover:bg-accent/30 hover:shadow-lg hover:scale-[1.02] border-sidebar-border/50 backdrop-blur-sm w-72 lg:w-[380px] lg:h-[200px] flex-shrink-0"
+      className="cursor-pointer py-0 transition-all duration-200 hover:bg-accent/30 hover:shadow-lg hover:scale-[1.02] border-sidebar-border/50 backdrop-blur-sm w-72 lg:w-[380px] lg:h-[200px] flex-shrink-0"
       onClick={onClick}
     >
       <CardContent className="p-0">
@@ -56,7 +56,7 @@ export function ServiceCard({
                 <div
                   className={`w-4 h-4 rounded-full ${
                     status === "online"
-                      ? "bg-primary"
+                      ? "bg-success/70"
                       : status === "warning"
                       ? "bg-warning"
                       : "bg-destructive"

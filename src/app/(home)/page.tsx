@@ -50,7 +50,6 @@ export default function HomePage() {
                 </p>
                 <p className="text-2xl font-bold text-foreground">6</p>
               </div>
-              <div className="w-3 h-3 rounded-full bg-muted-foreground animate-pulse" />
             </div>
           </div>
 
@@ -63,7 +62,6 @@ export default function HomePage() {
                   </p>
                   <p className="text-2xl font-bold text-primary">4</p>
                 </div>
-                <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
               </div>
             </div>
 
@@ -75,7 +73,6 @@ export default function HomePage() {
                   </p>
                   <p className="text-2xl font-bold text-destructive">1</p>
                 </div>
-                <div className="w-3 h-3 rounded-full bg-destructive animate-pulse" />
               </div>
             </div>
 
